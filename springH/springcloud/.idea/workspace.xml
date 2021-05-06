@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c2904ae-d3c1-4969-b5bb-ae1041ddd20d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../backstage/my-project/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backstage/my-project/src/main/java/com/study/MyProjectApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backstage/my-project/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backstage/my-project/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backstage/my-project/src/test/java/com/study/MyProjectApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/api/module/oauth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/api/service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/assets/login-bk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/permission.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/store/modules/userInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/utils/cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/views/layout/content.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/views/layout/header.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/views/layout/menu.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/views/login/login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/src/views/main.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mp-web/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../文件/网页图片.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../文件/网页图片/城市.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../文件/网页图片/建筑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../文件/网页图片/建筑2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../文件/网页图片/雪山.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../tools/maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q6H7tdX9uUZ0IrNAiLfT2ZAWFu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspance/智慧监督云平台/DCP" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.configclient.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c2904ae-d3c1-4969-b5bb-ae1041ddd20d" name="Default Changelist" comment="" />
+      <created>1616392955560</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616392955560</updated>
+      <workItem from="1616392959452" duration="8970000" />
+      <workItem from="1617891053151" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617891079167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617891079167" />
+    <state width="1860" height="246" key="GridCell.Tab.0.bottom" timestamp="1616683007611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007611" />
+    <state width="1860" height="246" key="GridCell.Tab.0.center" timestamp="1616683007611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007611" />
+    <state width="1860" height="246" key="GridCell.Tab.0.left" timestamp="1616683007611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007611" />
+    <state width="1860" height="246" key="GridCell.Tab.0.right" timestamp="1616683007611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007611" />
+    <state width="1860" height="246" key="GridCell.Tab.1.bottom" timestamp="1616683007612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007612" />
+    <state width="1860" height="246" key="GridCell.Tab.1.center" timestamp="1616683007612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007612" />
+    <state width="1860" height="246" key="GridCell.Tab.1.left" timestamp="1616683007611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007611" />
+    <state width="1860" height="246" key="GridCell.Tab.1.right" timestamp="1616683007612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="246" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616683007612" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1616683002215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616683002215" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1616683002215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616683002215" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1616683002215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616683002215" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1616683002215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616683002215" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1616393216571">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616393216571" />
+    <state x="334" y="180" key="new project wizard" timestamp="1616407820461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1616407820461" />
+  </component>
+</project>
