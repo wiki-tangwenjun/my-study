@@ -1,0 +1,11 @@
+2021-5-10：
+	最近想学习springcloud alibaba，主要学习这些模块：
+		nacos: 注册中心;
+		config:配置中心;
+		getway: 网关;
+		seate: 事务;
+		rocketMQ：消息中间件;
+		sentinel：流量控制;
+		dubbo: 远程调用;
+		other: 其他业务服务
+		
