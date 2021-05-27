@@ -1,11 +1,8 @@
-package com.study.rabbitmq.simple;
+package com.study.rabbitmq.direct;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
 
 /**
  * @projectName: springbootRabbitMQ
@@ -13,25 +10,13 @@ import java.util.concurrent.TimeoutException;
  * @className: Producer
  * @author: tang wen jun
  * @description: 消息生产者
- * @date: 2021年05月24日 23:06
+ * @date: 2021年05月27日 23:41
  * @version: 1.0
  */
 public class Producer {
     private static final String QUEUENAME = "queu1";
 
     public static void main(String[] args) {
-        /**
-         * rabbit是基于tcp/ip协议之上的amqp协议
-         *
-         * 1：创建连接工程
-         * 2：创建连接Connection
-         * 3：通过连接获取通道Channel
-         * 4：通过创建交换机，声明队列，绑定关系，路由key, 发送消息，和接收消息
-         * 5：准备消息内容
-         * 6：发送消息给queue
-         * 7：关闭连接
-         * 8：关闭通道
-         */
         ConnectionFactory connectionFactory = new ConnectionFactory();
         connectionFactory.setHost("127.0.0.1");
         connectionFactory.setPort(5672);
@@ -43,6 +28,9 @@ public class Producer {
         try {
             connection = connectionFactory.newConnection("我是生产者");
             channel = connection.createChannel();
+
+
+
             /**
              * @param1 队列名字
              * @param2 是否要持久化
@@ -52,10 +40,21 @@ public class Producer {
              */
             channel.queueDeclare(QUEUENAME, false, false, false, null);
 
+            // 消息内容
             String message = "hello rabbitMQ";
+
+            // 交换机名称
+            String exchangeName = "direct-exchange";
+
+            // 路由key
+            String routingKey = "qq";
+
+            // 交换机类型
+            String type = "direct";
+
             // param1 交换机  param2 队列、路由队列 param3 消息是否持久化  param4 消息内容
             // 虽然没有u才能在交换机 但是会默认存在一个交换机
-            channel.basicPublish("", QUEUENAME, null, message.getBytes());
+            channel.basicPublish(exchangeName, routingKey, null, message.getBytes());
 
             System.out.println("消息发送成功");
         } catch (Exception e) {

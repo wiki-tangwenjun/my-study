@@ -1,11 +1,8 @@
-package com.study.rabbitmq.simple;
+package com.study.rabbitmq.routing;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
-
-import java.io.IOException;
-import java.util.concurrent.TimeoutException;
 
 /**
  * @projectName: springbootRabbitMQ
@@ -13,7 +10,7 @@ import java.util.concurrent.TimeoutException;
  * @className: Producer
  * @author: tang wen jun
  * @description: 消息生产者
- * @date: 2021年05月24日 23:06
+ * @date: 2021年05月27日 23:30
  * @version: 1.0
  */
 public class Producer {
@@ -43,6 +40,9 @@ public class Producer {
         try {
             connection = connectionFactory.newConnection("我是生产者");
             channel = connection.createChannel();
+
+
+
             /**
              * @param1 队列名字
              * @param2 是否要持久化
@@ -52,10 +52,21 @@ public class Producer {
              */
             channel.queueDeclare(QUEUENAME, false, false, false, null);
 
+            // 消息内容
             String message = "hello rabbitMQ";
+
+            // 交换机名称
+            String exchangeName = "fanout-exchange";
+
+            // 路由key
+            String routingKey = "";
+
+            // 交换机类型
+            String type = "fanout";
+
             // param1 交换机  param2 队列、路由队列 param3 消息是否持久化  param4 消息内容
             // 虽然没有u才能在交换机 但是会默认存在一个交换机
-            channel.basicPublish("", QUEUENAME, null, message.getBytes());
+            channel.basicPublish(exchangeName, routingKey, null, message.getBytes());
 
             System.out.println("消息发送成功");
         } catch (Exception e) {

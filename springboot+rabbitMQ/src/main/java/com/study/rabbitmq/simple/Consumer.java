@@ -38,7 +38,7 @@ public class Consumer {
         Connection connection = null;
         Channel channel = null;
         try {
-            connection = connectionFactory.newConnection("我是生产者");
+            connection = connectionFactory.newConnection("我是消费者");
             channel = connection.createChannel();
             /**
              * @param1 队列名字
