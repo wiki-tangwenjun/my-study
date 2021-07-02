@@ -20,14 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cabebcd6-39cf-4df3-94bd-39a828de9729" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/direct/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/direct/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/routing/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/routing/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/simple/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/simple/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/simple/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/simple/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/simple/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/simple/Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/simple/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/study/rabbitmq/simple/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/all/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/all/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/topics/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/topics/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/work/fair/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/work/fair/Work1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/work/fair/Work2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/work/lunxun/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/work/lunxun/Work1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/work/lunxun/Work2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +65,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/direct" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/study/rabbitmq/work/fair" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -77,7 +79,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.study.rabbitmq.work.lunxun" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\a-study\my-study\springboot+rabbitMQ\src\main\java\com\study\rabbitmq\work\fair" />
+      <recent name="D:\a-study\my-study\springboot+rabbitMQ\src\main\java\com\study\rabbitmq\all" />
+      <recent name="D:\a-study\my-study\springboot+rabbitMQ\src\main\java\com\study\rabbitmq\topics" />
       <recent name="D:\a-study\my-study\springboot+rabbitMQ\src\main\java\com\study\rabbitmq\direct" />
       <recent name="D:\a-study\my-study\springboot+rabbitMQ\src\main\java\com\study\rabbitmq\routing" />
     </key>
@@ -88,52 +96,13 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.Consumer (2)">
-    <configuration name="Consumer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.routing.Consumer" />
-      <module name="springbootRabbitMQ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.rabbitmq.routing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.direct.Consumer" />
-      <module name="springbootRabbitMQ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.rabbitmq.direct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.simple.Consumer" />
-      <module name="springbootRabbitMQ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.study.rabbitmq.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Producer (2)">
     <configuration name="Producer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.routing.Producer" />
+      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.work.lunxun.Producer" />
       <module name="springbootRabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.rabbitmq.routing.*" />
+          <option name="PATTERN" value="com.study.rabbitmq.work.lunxun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="Producer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.direct.Producer" />
+      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.work.fair.Producer" />
       <module name="springbootRabbitMQ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.rabbitmq.direct.*" />
+          <option name="PATTERN" value="com.study.rabbitmq.work.fair.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,13 +139,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Work1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.work.fair.Work1" />
+      <module name="springbootRabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.rabbitmq.work.fair.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.work.fair.Work2" />
+      <module name="springbootRabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.rabbitmq.work.fair.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Work2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.rabbitmq.work.lunxun.Work2" />
+      <module name="springbootRabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.study.rabbitmq.work.lunxun.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consumer (2)" />
         <item itemvalue="Application.Producer (2)" />
+        <item itemvalue="Application.Work2 (1)" />
+        <item itemvalue="Application.Work1 (1)" />
         <item itemvalue="Application.Producer (1)" />
-        <item itemvalue="Application.Consumer (1)" />
-        <item itemvalue="Application.Consumer" />
+        <item itemvalue="Application.Work2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +202,7 @@
       <workItem from="1621868537264" duration="2396000" />
       <workItem from="1621955124334" duration="634000" />
       <workItem from="1621955798970" duration="4879000" />
+      <workItem from="1622909270184" duration="5841000" />
     </task>
     <servers />
   </component>
@@ -221,53 +230,53 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621955633121" />
-    <state width="1867" height="281" key="GridCell.Tab.0.bottom" timestamp="1622130036657">
+    <state width="933" height="281" key="GridCell.Tab.0.bottom" timestamp="1622916491182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036657" />
-    <state width="1867" height="281" key="GridCell.Tab.0.center" timestamp="1622130036657">
+    <state width="933" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622916491182" />
+    <state width="933" height="281" key="GridCell.Tab.0.center" timestamp="1622916491181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036657" />
-    <state width="1867" height="281" key="GridCell.Tab.0.left" timestamp="1622130036656">
+    <state width="933" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622916491181" />
+    <state width="933" height="281" key="GridCell.Tab.0.left" timestamp="1622916491181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036656" />
-    <state width="1867" height="281" key="GridCell.Tab.0.right" timestamp="1622130036657">
+    <state width="933" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622916491181" />
+    <state width="933" height="281" key="GridCell.Tab.0.right" timestamp="1622916491182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036657" />
-    <state width="1867" height="281" key="GridCell.Tab.1.bottom" timestamp="1622130036657">
+    <state width="933" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622916491182" />
+    <state width="933" height="281" key="GridCell.Tab.1.bottom" timestamp="1622916490934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036657" />
-    <state width="1867" height="281" key="GridCell.Tab.1.center" timestamp="1622130036657">
+    <state width="933" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622916490934" />
+    <state width="933" height="281" key="GridCell.Tab.1.center" timestamp="1622916490933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036657" />
-    <state width="1867" height="281" key="GridCell.Tab.1.left" timestamp="1622130036657">
+    <state width="933" height="281" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622916490933" />
+    <state width="933" height="281" key="GridCell.Tab.1.left" timestamp="1622916490931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036657" />
-    <state width="1867" height="281" key="GridCell.Tab.1.right" timestamp="1622130036657">
+    <state width="933" height="281" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622916490931" />
+    <state width="933" height="281" key="GridCell.Tab.1.right" timestamp="1622916490933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622130036657" />
+    <state width="933" height="281" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622916490933" />
     <state x="461" y="0" key="SettingsEditor" timestamp="1621956054300">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621956054300" />
-    <state x="624" y="223" key="extract.method.dialog" timestamp="1622128507599">
+    <state x="624" y="223" key="extract.method.dialog" timestamp="1622909445704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="624" y="223" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622128507599" />
+    <state x="624" y="223" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1622909445704" />
     <state x="532" y="237" width="840" height="1034" key="run.anything.popup" timestamp="1621956199650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="532" y="237" width="840" height="1034" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621956199650" />
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1621869022815">
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1622911783152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621869022815" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622911783152" />
   </component>
 </project>
