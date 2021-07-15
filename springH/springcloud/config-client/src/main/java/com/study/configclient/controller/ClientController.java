@@ -12,6 +12,6 @@ public class ClientController {
 
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
-        return name+","+ word;
+        return name + "," + word;
     }
 }
